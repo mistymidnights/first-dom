@@ -292,13 +292,13 @@ const cvConversionToHtml = (cvInfo) => {
           <h1>${cv.gradomedio.name}</h1>
           <h2>${cv.gradomedio.institute}</h2>
           <h3>${cv.gradomedio.year}</h3>
-          <p>${cv.gradomedio.description}</p>
+          <p class="texto-cv">${cv.gradomedio.description}</p>
       </div>
       <div class="cv-info">
           <h1>${cv.gradosuperior.name}</h1>
           <h2>${cv.gradosuperior.institute}</h2>
           <h3>${cv.gradosuperior.year}</h3>
-          <p>${cv.gradosuperior.description}</p>
+          <p class="texto-cv">${cv.gradosuperior.description}</p>
       </div>
       <div class="cv-info">
           <h1>${cv.operador.name}</h1>
