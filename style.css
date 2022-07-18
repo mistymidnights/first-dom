@@ -65,13 +65,14 @@ nav{
     clip-path: circle();
 }
 
-.personal-data h2{
+.personal-data h2 {
     font-family: 'Chivo', sans-serif;
     font-weight: 900;
-    margin-bottom:80px;
+    margin-bottom: 80px;
     text-transform: uppercase;
     font-weight: 800;
     text-align: left;
+    color: grey;
 }
 
 .personal-data p{
@@ -209,21 +210,24 @@ footer{
     align-items: center;
     justify-content: center;
     padding: 60px;
+    margin-bottom: -41px;
     height: 186px;
     width: 566px;
     text-align: center;
 }
 
-.cv-info h1, h2{
+.cv-info h1, h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-weight: bold;
     font-size: 22px;
+    color: #fdeace;
 }
 
-.cv-info h3{
+.cv-info h3 {
     margin-bottom: 40px;
+    color: grey;
 }
 
 .footer{
@@ -234,6 +238,7 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
     letter-spacing: 7px;
+    padding: 70px;
 }
 
 /* ------------------------- */
